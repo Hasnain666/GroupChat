@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/back"
+    android:background="@drawable/plss"
     android:layout_height="match_parent"
     tools:context=".loginactivity">
 
@@ -79,12 +79,13 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:layout_width="397dp"
-        android:layout_height="331dp"
-        android:layout_marginLeft="3dp"
+        android:layout_width="317dp"
+        android:layout_height="234dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
 
         android:layout_marginBottom="47dp"
-        android:src="@drawable/madebyhasnain" />
+        android:src="@drawable/lobo" />
 
 
 </RelativeLayout>

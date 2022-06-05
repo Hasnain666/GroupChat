@@ -20,13 +20,25 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(MainActivity.this, loginactivity.class);
-                startActivity(intent);
-                finish();
+        Thread td = new Thread(){
+            public void run(){
+                try {
+                    sleep(2500);
+
+                }catch (Exception ex){
+                    ex.printStackTrace();
+
+                }
+                finally {
+                    Intent intent = new Intent(MainActivity.this , loginactivity.class);
+                    startActivity(intent);
+                    finish();
+
+
+                }
             }
-        }, 2500);
+
+
+        };td.start();
         }
     }

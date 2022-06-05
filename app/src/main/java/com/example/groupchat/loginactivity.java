@@ -41,7 +41,7 @@ public class loginactivity extends AppCompatActivity {
         //this method starts here
         mAuth = FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser() != null) {
-            startActivity(new Intent(loginactivity.this,homeactivity.class));
+            startActivity(new Intent(loginactivity.this, homeactivity.class));
             finish();
         }
         //ends here
@@ -81,12 +81,14 @@ public class loginactivity extends AppCompatActivity {
                         finish();
 
                     } else {
-                        Toast.makeText(loginactivity.this, "Login Failed, Please Try Again" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(loginactivity.this, "Login Failed,Please Verify your email address " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
+
                 }
             });
         }
         finish();
     }
 }
+
 

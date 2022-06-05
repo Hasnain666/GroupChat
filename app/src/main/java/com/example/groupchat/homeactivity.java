@@ -7,13 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class homeactivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
-    private Button btnLogout;
+    private ImageView btnLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
