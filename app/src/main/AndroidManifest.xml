@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GroupChat">
         <activity
+            android:name=".datascience"
+            android:exported="false" />
+        <activity
+            android:name=".androdev"
+            android:exported="false" />
+        <activity
+            android:name=".webdev"
+            android:exported="false" />
+        <activity
+            android:name=".programminglang"
+            android:exported="false" />
+        <activity
             android:name=".homeactivity"
             android:exported="false" />
         <activity

@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class homeactivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
-    private ImageView btnLogout;
+    private ImageView btnLogout,programminglang,imageView2,imageView3,imageView4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,41 @@ public class homeactivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         mAuth = FirebaseAuth.getInstance();
         btnLogout = findViewById(R.id.btnLogout);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
+        imageView4 = findViewById(R.id.imageView4);
+
+        programminglang = findViewById(R.id.programminglang);
+
+        programminglang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(homeactivity.this, com.example.groupchat.programminglang.class));
+
+            }
+        });
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(homeactivity.this,webdev.class));
+            }
+        });
+        imageView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(homeactivity.this,androdev.class));
+            }
+        });
+        imageView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(homeactivity.this,datascience.class));
+            }
+        });
+
+
+
+
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override

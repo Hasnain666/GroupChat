@@ -26,11 +26,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/programminglang"
         android:layout_width="157dp"
         android:layout_height="89dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="45dp"
+        android:clickable="true"
         android:layout_marginEnd="238dp"
         android:layout_marginBottom="9dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
@@ -69,7 +70,7 @@
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/programminglang"
         app:layout_constraintTop_toBottomOf="@+id/head"
         app:srcCompat="@drawable/internet"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -86,7 +87,7 @@
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/programminglang"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <ImageView
@@ -95,6 +96,7 @@
         android:layout_height="121dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="27dp"
+        android:clickable="true"
         android:layout_marginEnd="238dp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -162,7 +164,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/logout" />
+        app:srcCompat="@drawable/logout"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView5"
