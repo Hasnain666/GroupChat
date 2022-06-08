@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/regwallpaper"
-    tools:context=".registeractivity">
+    tools:context="com.hasnain.UpskillForFree.registeractivity">
 
     <ImageView
         android:id="@+id/img"
@@ -15,7 +15,7 @@
         android:layout_marginTop="70dp"
 
         android:layout_marginBottom="47dp"
-        android:src="@drawable/lobo" />
+        android:src="@drawable/updated" />
 
     <EditText
         android:id="@+id/regusername"

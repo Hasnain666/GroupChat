@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/allback"
-    tools:context=".androdev">
+    tools:context="com.hasnain.UpskillForFree.androdev">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

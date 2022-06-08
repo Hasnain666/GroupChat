@@ -1,4 +1,4 @@
-package com.example.groupchat;
+package com.hasnain.UpskillForFree;
 
 import org.junit.Test;
 

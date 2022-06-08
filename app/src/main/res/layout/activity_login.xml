@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/plss"
     android:layout_height="match_parent"
-    tools:context=".loginactivity">
+    tools:context="com.hasnain.UpskillForFree.loginactivity">
 
     <EditText
         android:id="@+id/loginusername"
@@ -85,7 +85,7 @@
         android:layout_marginTop="70dp"
 
         android:layout_marginBottom="47dp"
-        android:src="@drawable/lobo" />
+        android:src="@drawable/updated" />
 
 
 </RelativeLayout>

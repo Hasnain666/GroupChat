@@ -12,28 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GroupChat">
         <activity
-            android:name=".datascience"
+            android:name="com.hasnain.UpskillForFree.datascience"
             android:exported="false" />
         <activity
-            android:name=".androdev"
+            android:name="com.hasnain.UpskillForFree.androdev"
             android:exported="false" />
         <activity
-            android:name=".webdev"
+            android:name="com.hasnain.UpskillForFree.webdev"
             android:exported="false" />
         <activity
-            android:name=".programminglang"
+            android:name="com.hasnain.UpskillForFree.programminglang"
             android:exported="false" />
         <activity
-            android:name=".homeactivity"
+            android:name="com.hasnain.UpskillForFree.homeactivity"
             android:exported="false" />
         <activity
-            android:name=".registeractivity"
+            android:name="com.hasnain.UpskillForFree.registeractivity"
             android:exported="false" />
         <activity
-            android:name=".loginactivity"
+            android:name="com.hasnain.UpskillForFree.loginactivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.hasnain.UpskillForFree.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
